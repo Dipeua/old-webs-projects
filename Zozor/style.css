@@ -1,0 +1,164 @@
+body{
+    font-family: sans-serif;
+    background-image: url("images/fond_jaune.png");
+    margin: 0;
+    padding: 0;
+}
+
+#conteneur{
+    width: 900px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h2{
+    font-size: 20px;
+    font-style: italic;
+}
+
+header img{
+    float: left;
+}
+
+ul{
+    list-style: none;
+}
+
+nav {
+    position: relative;
+    top: 70px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+header nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover{
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+nav ul li{
+    margin-left: 12px;
+}
+
+.separateur{
+    background: url("images/separateur.png");
+    padding: 1px;
+}
+
+.bg{
+    background-image: url("images/sanfrancisco.jpg");
+    margin-top: 10px;
+    height: 219px;
+    position: relative;
+}
+
+.bg div {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg p {
+    margin-left: 14px;
+}
+
+.body aside img{
+    float: left;
+    position: relative;
+    top: 14px;
+}
+
+.body aside a {
+    color: brown;;
+}
+
+.body aside{
+    width: 80%;
+    text-align: justify;
+}
+
+
+.body article{
+    width: 30%;
+    height: 350px;
+    background-color:rgb(100, 100, 102);
+    border-radius: 8px;
+    margin-left: 14px;
+    color: #fff;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+}
+.body article .p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.body aside h2{
+    position: relative;
+    top: 14px;
+    left: 10px;
+}
+
+.body{
+    display: flex;
+    margin-top: 18px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 25px;
+}
+
+.social li{
+    margin-left: 15px;
+}
+
+.ff{
+    position: absolute;
+    top: 150px;
+    left: -12px;
+}
+
+
+footer, .img{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.fleche{
+    position: absolute;
+    top: -3px;
+    left: 50%;
+}
+
+.img , .re{position: relative;left: -40px;}
+.img li{
+    margin-right: 10px;
+}
+
+.re li::before{
+    content: '';
+    background-image: url("images/ico_liensexterne.png");
+}
+
+.ici{display: none;}

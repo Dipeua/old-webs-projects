@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code Medium', sans-serif;
+}
+
+header{
+    width: 900px;
+    margin:  0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    font-weight: bold;
+    color: #444;
+    margin-top: 35px;
+}
+
+.fullstop{
+    color: #ff4a00;
+}
+
+nav{
+    margin-top: 35px;
+}
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+header a{
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color .3s;
+}
+
+header a:hover{
+    color: #ff4a00
+}
+
+.welcome{
+    height: 500px;
+    width: 100%;
+    background: url("../img/24.6\ main.jpg.jpg") center;
+}
+
+.text{
+    text-align: center;
+    position: relative;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 24px;
+    padding-top: 10%;
+}
+
+.text .button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff4a00;
+    padding: 12px;
+    border-radius: 4px;
+    opacity: 1;
+    transition: opacity .3s;
+}
+.text .button:hover{
+    opacity: 0.9;
+}
+
+.types{
+    width: 900px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #444;
+    margin-top: 18px;
+}
+.types p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.container > div {
+    margin-left: 35px;
+}
+figure{text-align: center;}
+figcaption{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.letGo{
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 340px;
+}
+
+.blog{
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+}
+
+.blog > div{
+    margin-left: 14px;
+    border-radius: 8px;
+    height: 250px;
+}
+
+.img1{
+    position: relative;
+    width: 500px;
+    background: url("../img/24.4\ article-image-1.jpg.jpg") no-repeat center;
+}
+
+.img2{
+    position: relative;
+    width: 500px;
+    background: url("../img/24.5\ article-image-2.jpg.jpg") no-repeat center;
+}
+
+.bgImg1{
+    text-align: center;
+    width: 200px;
+    height: 100%;
+    padding: 4px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.911);
+}
+
+.letGo h3{
+    color: #444;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.bgImg1 p{
+    border-top: 1px solid #ff4a00;
+    padding-top: 20px;
+    color: #444;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.bgImg1 .click{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    height: 10px;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #ff4a00;
+}
+
+.contact{
+    font-family: sans-serif;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h3{
+    color: #444;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.contact .separator{
+    width: 500px;
+    background-color: rgba(68, 68, 68, 0.678);
+    margin: 0 auto;
+    padding: 1px;
+    position: relative;
+    bottom: 10px;
+}
+
+.contact p{
+    color: #444;
+    line-height: 22px;
+}
+
+label{
+    color: #444;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+input{
+    border: 2px solid rgba(58, 56, 56, 0.582);
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+}
+
+button{
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(24, 143, 223, 0.932);
+    color: #fff;
+    background-color: rgba(24, 143, 223, 0.932);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(51, 50, 50);
+}
+
+.footer h1{
+    color: #fff;
+}
+
+.footer p{
+    color: rgb(104, 102, 102);
+}
