@@ -2,12 +2,12 @@ Mes première ligne de code HTML5 et CSS3
 
 # Mon premier (CV)
 
-**Voici ma premier application web après avoir suivie la formation de Mathieu Nebra en 2017**
+**Voici ma premier application web en 2017 c'est ou je l'avais encore  😂**
 
 ![cv](./cv.png)
 
 [Check]
-En ce moment je fessais la classe de 2nd C 😂 sa fait du bien de pouvoir la mettre sur GitHub aujourd'hui. Beaucoup de chose ont changer depuis 🤓
+En ce moment je fessais la classe de 2nd sa fait du bien de pouvoir la mettre sur GitHub aujourd'hui. Beaucoup de chose ont changer depuis 🤓
 
 ---
 # Zozor
