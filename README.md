@@ -7,6 +7,7 @@ Mes première ligne de code HTML5 et CSS3
 ![cv](./cv.png)
 
 [Check](https://github.com/Berthold-au/old-webs-projects/tree/main/Old%20CV)
+
 En ce moment je fessais la classe de 2nd sa fait du bien de pouvoir la mettre sur GitHub aujourd'hui. Beaucoup de chose ont changer depuis 🤓
 
 ---
@@ -17,7 +18,7 @@ Bref le code n'était pro je l'accord mes le résultat était celui attendu. �
 
 ![zozor.png](./zozor.png)
 
-[Zozor]
+[Zozor](https://github.com/Berthold-au/old-webs-projects/tree/main/Zozor)
 
 Cela pour dire garder la même passion ! ❤️ Computer
 
@@ -28,4 +29,4 @@ Une autre réalisation fue **_Travel Agency_**  de **Formation Video**
 
 ![travel](./travel.png)
 
-[Travel Agency]
+[Travel Agency](https://github.com/Berthold-au/old-webs-projects/tree/main/Travel%20Agency)
