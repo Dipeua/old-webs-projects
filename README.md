@@ -4,7 +4,7 @@ Mes première ligne de code HTML5 et CSS3
 
 **Voici ma premier application web après avoir suivie la formation de Mathieu Nebra en 2017**
 
-![cv.png](cv.png?raw=true "Title)
+![cv](./cv.png?raw=true)
 
 [Check]
 En ce moment je fessais la classe de 2nd C 😂 sa fait du bien de pouvoir la mettre sur GitHub aujourd'hui. Beaucoup de chose ont changer depuis 🤓
