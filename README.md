@@ -6,7 +6,7 @@ Mes première ligne de code HTML5 et CSS3
 
 ![cv](./cv.png)
 
-[Check]
+[Check](https://github.com/Berthold-au/old-webs-projects/tree/main/Old%20CV)
 En ce moment je fessais la classe de 2nd sa fait du bien de pouvoir la mettre sur GitHub aujourd'hui. Beaucoup de chose ont changer depuis 🤓
 
 ---
