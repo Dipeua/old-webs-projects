@@ -1,0 +1,191 @@
+body {
+    font-size: 18px;
+    font-family: verdana;
+    margin: 0;
+}
+
+#blog_form{
+    width: 100%;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(232, 233, 235);
+    padding-bottom: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+svg {
+    width: 300px;
+}
+
+.facebook_description {
+    font-size: 28px;
+    font-weight: normal;
+    width: 500px;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blog {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgb(176, 177, 179);
+    /* border: 0px solid rgb(176, 177, 179); */
+    width: 396px;
+    margin-bottom: 25px;
+    background-color: #fff;
+
+    position: relative;
+}
+
+.input {
+    margin-right: 12px;
+}
+
+.input input {
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    font-size: 18px;
+    padding-left: 6px;
+    border: none;
+    border: 1px solid rgba(176, 177, 179, 0.411);
+}
+
+.input input:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 2px #1877f2;
+    outline: none;
+}
+
+form div {
+    margin-top: 18px;
+}
+
+.btn_input .btn {
+    width: 100%;
+    color: #fff;
+    border: 1px solid #1877f2;
+    background-color:#1877f2;
+    border-radius: 8px;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: .3s;
+    background-color:#1c5eb4;
+}
+
+.password_foget {
+    font-size: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+
+.password_foget a{
+    color: #1877f2;
+}
+
+.password_foget a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid rgba(176, 177, 179, 0.411);
+}
+
+.inscription_div {
+    padding: 8px 25px;
+    text-align: center;
+}
+
+.inscription{
+    color: #fff;
+    background-color: #42b72a;
+    border: 0px solid #42b72a;
+    width:  296px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.inscription:hover{
+    transition: .3s;
+    background-color: #398f28;
+}
+
+.footer{
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer a{
+    font-weight: bold;
+    color: #000;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #fff;
+    height: 100%;
+}
+
+footer div , footer hr{
+    width: 80%;
+    margin: auto;
+}
+
+footer li{
+    list-style-type: none;
+    display:  inline-block;
+}
+
+footer a , span{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(126, 128, 131);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog {
+        margin-top: 15px;
+    }
+}
